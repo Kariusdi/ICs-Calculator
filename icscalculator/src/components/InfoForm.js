@@ -78,7 +78,7 @@ import Answer from './answer'
           />
           </label>
         </div>
-        <input style={{width: "10rem", fontSize: "5rem", margin: "2rem"}} type="submit" value="Calculate" />
+        <input style={{width: "10rem", margin: "2rem"}} type="submit" value="Calculate" />
       </form>
       <Answer result={result} boxes={boxes}/>
     </div>
